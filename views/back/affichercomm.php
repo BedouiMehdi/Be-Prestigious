@@ -195,6 +195,8 @@ if(isset($_POST['adresse']))
             <td><a href="modifiercommande.php?id=<?PHP echo $row['id']; ?>">
                   <FONT face=”Arial”>    <input name="modifier" type="image" src="modifier.png" width="30"
                                     height="30">
+			</td>
+		   <td><a href="timeremaining.php?id=<?PHP echo $row['id']; ?>"> <input name="heure" type="image" src="heure.png"  width="40"></a></td>
         </tr>
         <?PHP
     }

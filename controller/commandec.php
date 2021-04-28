@@ -197,6 +197,18 @@ try{
             die('Erreur: '.$e->getMessage());
         }	
 	}
+	
+	 public function trouverEventdate($id)
+    {
+        $sql = "SELECT date from commande where id='" . $id . "'";
+        $db = config::getConnexion();
+        try {
+            $liste = $db->query($sql);
+            return $liste;
+        } catch (Exception $e) {
+            die('Erreur: ' . $e->getMessage());
+        }
+    }
 	}
 
     
