@@ -36,7 +36,9 @@ $dbConnection = mysqli_connect('localhost', 'root', '', 'projet');
 $query  = "SELECT * FROM commande";
 $result = mysqli_query($dbConnection, $query);
 $e=0;
-$i=0;
+
+
+
 $pdf = new PDF();
 //header
 $pdf->AddPage();
@@ -53,4 +55,5 @@ if (mysqli_num_rows($result) > 0) {
   
       } 
 $pdf->Output();
+var_dump($pdf);
 ?>

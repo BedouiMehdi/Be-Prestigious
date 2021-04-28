@@ -208,7 +208,7 @@ if(isset($_POST['adresse']))
 								<table>
                 <tr>
                     
-                    <td>            <a class="nav-item nav-link " style="display:inline;" href="generate_pdf.php"><img src="pdf.png" class="img_ajouter"> </a>
+                    <td>            <a class="nav-item nav-link " style="display:inline;" href="generate_pd.php"><img src="pdf.png" class="img_ajouter"> </a>
 </td>
                 </tr>
             </table>
