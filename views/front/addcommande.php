@@ -63,7 +63,7 @@ if (!isset($_POST['add2'])) {
 		$etat=$row['etat'];
         $total=$row['total'];
     }
-		
+	
         ?>
 		 <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -87,26 +87,28 @@ if (!isset($_POST['add2'])) {
                     </div>
                     <div class="col-lg-8">
                          <form method="POST" action="ajoutcommande.php">
-                            <div class="row ">
+                           
+						<div class="row ">
                                          <div class="col-sm-6">
                                         <div class="form-group">
-                                             <input class="form-control valid" type="number" placeholder="id commande" name="id">
+                                             <input class="form-control valid btn btn-light float-rights" type="number" placeholder="id commande" name="id" max="99" required>
                                         </div>
                                     </div>
                                 </div>
 								 <div class="row space">
 								<div class="col-sm-6">
                         <div class="form-group">
-                            <input class="form-control valid" type="text" placeholder="NAME" name="nom">
+                            <input class="form-control valid btn btn-light float-rights" type="text" placeholder="NAME" name="nom" required>
+							<br>
 							<br>
 							<div class="form-group">
-                                    <input class="form-control" type="date" placeholder="date" name="date">
+                                    <input class="form-control btn btn-light float-rights" type="date" placeholder="date" name="date" min="<?php echo date("Y-m-d", strtotime("+2 day")); ?>" required>
                                     <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
 							<br>
-									
-                                <div class="input-group">
+									<br>
+                                <div class="form-group">
                                     <div class="rs-select2 js-select-simple select--no-search">
-                                        <input type="text" placeholder="Adresse"  name="adresse">
+                                        <input class="form-control valid btn btn-light float-rights" type="text" placeholder="Adresse"  name="adresse" required>
                                     </div>
                                 </div>
                            
@@ -116,27 +118,14 @@ if (!isset($_POST['add2'])) {
 						</div>
 						</div>
 						
-						
-                        <div class="col-sm-6">
-						
-                          
-							</div>
-
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <div class="rs-select2 js-select-simple select--no-search">
-                                        <input type="hidden" value="en cours" name="etat">
-                                    </div>
-                                </div>
-                            </div>
-                        
-                        <div><input type="hidden" value="50" name="total"></div>
+                       
                        
                        
                         
                        
-                        <div class="form-group mt-3">
-                                <button type="submit" class="btn btn-success ">COMMANDER</button>
+                        <div class="form-group ">
+						 
+                                <button type="submit" class=" valid btn btn-dark float-rights">COMMANDER</button>
                             </div>
                         </form>
                     </div>
