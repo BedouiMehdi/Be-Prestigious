@@ -10,7 +10,7 @@
 <html lang="en">
 
 <head>
-  <title>Virupedia</title>
+  <title>Be Prestigious</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!--<link rel="shortcut icon" type="image/x-icon" href="images/logo.png"> logo change error-->

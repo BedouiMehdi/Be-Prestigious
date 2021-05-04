@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Virupedia &mdash; Colorlib Template</title>
+    <title>Be Prestigious &mdash; Colorlib Template</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -28,9 +28,7 @@
             <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
 
                 <div class="block-7">
-                    <h3 class="footer-heading mb-4">About <strong class="text-primary">Virupedia</strong></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quae reiciendis distinctio voluptates
-                        sed dolorum excepturi iure eaque, aut unde.</p>
+                    <h3 class="footer-heading mb-4">About <strong class="text-primary">Be Prestigious</strong></h3>
                 </div>
 
             </div>
@@ -49,8 +47,8 @@
                     <h3 class="footer-heading mb-4">Contact Info</h3>
                     <ul class="list-unstyled">
                         <li class="address">chotrana,Tunis,Tunisia</li>
-                        <li class="phone"><a href="tel://23923929210">+ 392 3929 210</a></li>
-                        <li class="email">Virupedia@Health.com</li>
+                        <li class="phone"><a href="tel://23923929210">+ 216 53 992 400</a></li>
+                        <li class="email">Be@prestigious.tn</li>
                     </ul>
                 </div>
 
@@ -64,8 +62,8 @@
                     Copyright &copy;
                     <script>
                         document.write(new Date().getFullYear());
-                    </script> All rights reserved Template 
-                    with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Virupedia</a>
+                    </script> All rights reserved Template made
+                    with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Be Prestigious</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </p>
             </div>

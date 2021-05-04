@@ -21,7 +21,7 @@ $fstring = substr($newstring, $pos + 1, 12);
 <html lang="en">
 
 <head>
-    <title>Virupedia</title>
+    <title>Be Prestigious</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
@@ -57,7 +57,7 @@ $fstring = substr($newstring, $pos + 1, 12);
             <div class="d-flex align-items-center justify-content-between">
                 <div class="logo">
                     <div class="site-logo">
-                        <a href="index.php" class="js-logo-clone"><strong class="text-primary">Viru</strong>pedia</a>
+                        <a href="index.php" class="js-logo-clone"><strong class="text-primary">Be</strong>Prestigious</a>
                     </div>
                 </div>
                 <div class="main-nav d-none d-lg-block">

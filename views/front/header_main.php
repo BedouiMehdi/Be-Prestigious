@@ -1,5 +1,5 @@
 <nav class="navbar navbar-dark py-0 bg-primary navbar-expand-lg py-md-0">
-    <a class="navbar-brand" href="#">Virupedia</a>
+    <a class="navbar-brand" href="#">Be Prestigious</a>
     <button class="navbar-toggler mt-1" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fa fa-bars"></i>
     </button>
